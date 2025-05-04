@@ -35,7 +35,7 @@ Stores this message in self.error_message.
 __str__ method
 → When you print the exception, it shows the full custom message.'''
 import sys
-import logging 
+from src.logger import logging 
 
 #when we get an error from interpreter(we know using sys) we push that here
 def error_message_detail(error,error_detail:sys):

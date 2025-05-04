@@ -1,4 +1,10 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+seaborn
+scikit-learn
+xgboost
+catboost
+#we need to remove the comment from -e only when the package is getting built
+#-e .
