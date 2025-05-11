@@ -6,5 +6,6 @@ seaborn
 scikit-learn
 xgboost
 catboost
+dill
 #we need to remove the comment from -e only when the package is getting built
 #-e .
